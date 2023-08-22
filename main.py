@@ -1,4 +1,3 @@
-import threading
 import os
 import subprocess
 import time
@@ -43,12 +42,6 @@ lines = art.split('\n')
 space_count = 0
 
 direction = 1
-
-
-
-
-
-
 
 def clear_console():
     os.system('cls' if os.name == 'nt' else 'clear')
